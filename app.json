@@ -1,0 +1,44 @@
+{
+    "name": "هكر ترمكس",
+    "description": "بوت اختراق الحسابات",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "elliot",
+        "Telegram Bot",
+        "ترمكس",
+        "اكس داك"
+    ],
+    "website": "",
+    "success_url": "https://t.me/X_DARK1",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "التوكن",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "الهاش",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "الايدي",
+            "value": ""
+        },
+        "DEV": {
+            "description": "يوزرك",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
